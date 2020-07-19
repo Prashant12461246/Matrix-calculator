@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Transpose4by4page"
+    android:background="@drawable/main">
+
+    <EditText
+        android:id="@+id/ettra44a11"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A11 :-"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp" />
+
+    <EditText
+        android:id="@+id/ettra44a12"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/ettra44a11"
+        android:layout_marginStart="103dp"
+        android:ems="10"
+        android:hint="A12 :-"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/ettra44a14"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/ettra44a11"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A14 :-"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp" />
+
+    <EditText
+        android:id="@+id/ettra44a13"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/ettra44a11"
+        android:layout_marginEnd="105dp"
+        android:ems="10"
+        android:hint="A13 :-"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/ettra44a21"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/ettra44a11"
+        android:layout_marginTop="79dp"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A21 :- "
+        android:layout_alignLeft="@+id/ettra44a11" />
+
+    <EditText
+        android:id="@+id/ettra44a22"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ettra44a12"
+        android:layout_alignStart="@+id/ettra44a12"
+        android:layout_alignTop="@+id/ettra44a21"
+        android:ems="10"
+        android:hint="A22: - "
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/ettra44a23"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ettra44a13"
+        android:layout_alignRight="@+id/ettra44a13"
+        android:layout_alignTop="@+id/ettra44a21"
+        android:ems="10"
+        android:hint="A23 :-"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/ettra44a24"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ettra44a14"
+        android:layout_alignRight="@+id/ettra44a14"
+        android:layout_alignTop="@+id/ettra44a21"
+        android:ems="10"
+        android:hint="A24 :-"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/ettra44a31"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/ettra44a11"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A31 :-"
+        android:layout_alignLeft="@+id/ettra44a11" />
+
+    <EditText
+        android:id="@+id/ettra44a32"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ettra44a12"
+        android:layout_alignStart="@+id/ettra44a12"
+        android:layout_alignTop="@+id/ettra44a31"
+        android:ems="10"
+        android:hint="A32 :-"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/ettra44a33"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ettra44a13"
+        android:layout_alignRight="@+id/ettra44a13"
+        android:layout_alignTop="@+id/ettra44a31"
+        android:ems="10"
+        android:hint="A33 :-"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/ettra44a34"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ettra44a14"
+        android:layout_alignRight="@+id/ettra44a14"
+        android:layout_alignTop="@+id/ettra44a31"
+        android:ems="10"
+        android:hint="A34 :- "
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/ettra44a41"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/ettra44a11"
+        android:layout_marginTop="202dp"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A41 :-"
+        android:layout_alignLeft="@+id/ettra44a11" />
+
+    <EditText
+        android:id="@+id/ettra44a42"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ettra44a12"
+        android:layout_alignStart="@+id/ettra44a12"
+        android:layout_alignTop="@+id/ettra44a41"
+        android:ems="10"
+        android:hint="A42 :-"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/ettra44a43"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ettra44a13"
+        android:layout_alignRight="@+id/ettra44a13"
+        android:layout_alignTop="@+id/ettra44a41"
+        android:ems="10"
+        android:hint="A43 :- "
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/ettra44a44"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ettra44a14"
+        android:layout_alignRight="@+id/ettra44a14"
+        android:layout_alignTop="@+id/ettra44a41"
+        android:ems="10"
+        android:hint="A44 :- "
+        android:inputType="numberDecimal|numberSigned" />
+
+    <Button
+        android:id="@+id/bttra4by4result"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="205dp"
+        android:text="TRANSPOSE"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tvtra4by4result"
+        android:layout_width="338dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:textSize="28sp" />
+</RelativeLayout>

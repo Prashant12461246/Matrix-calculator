@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adjoint3by3page"
+    android:background="@drawable/main">
+
+    <EditText
+        android:id="@+id/etadj33a11"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="A11 :-"
+        android:inputType="numberDecimal|numberSigned"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/etadj33a12"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/etadj33a11"
+        android:layout_marginEnd="148dp"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A12 :- " />
+
+    <EditText
+        android:id="@+id/etadj33a13"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etadj33a12"
+        android:layout_alignTop="@+id/etadj33a11"
+        android:layout_marginStart="118dp"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A13 :-" />
+
+    <EditText
+        android:id="@+id/etadj33a21"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/etadj33a11"
+        android:layout_marginTop="90dp"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A21 :-" />
+
+    <EditText
+        android:id="@+id/etadj33a22"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etadj33a12"
+        android:layout_alignTop="@+id/etadj33a21"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A22 :- " />
+
+    <EditText
+        android:id="@+id/etadj33a23"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etadj33a13"
+        android:layout_alignTop="@+id/etadj33a21"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A23 :-" />
+
+    <EditText
+        android:id="@+id/etadj33a31"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/etadj33a11"
+        android:layout_marginTop="158dp"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A31 :- " />
+
+    <EditText
+        android:id="@+id/etadj33a32"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etadj33a12"
+        android:layout_alignTop="@+id/etadj33a31"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A32 :-" />
+
+    <EditText
+        android:id="@+id/etadj33a33"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etadj33a13"
+        android:layout_alignTop="@+id/etadj33a31"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A33 :-" />
+
+    <Button
+        android:id="@+id/btadj3by3result"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="244dp"
+        android:text="ADJOINT"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tvadj3by3reault"
+        android:layout_width="327dp"
+        android:layout_height="186dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:textSize="32sp"/>
+</RelativeLayout>

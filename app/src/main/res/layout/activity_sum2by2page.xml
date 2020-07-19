@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sum2by2page"
+    android:background="@drawable/main">
+
+    <TextView
+        android:id="@+id/tvsumm1"
+        android:layout_width="126dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="22dp"
+        android:text="Matrix 1"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvsumm2"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tvsumm1"
+        android:layout_marginEnd="41dp"
+        android:text="Matrix 2"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etsum22a111"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvsumm1"
+        android:layout_alignTop="@+id/etsum22a112"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A11:-" />
+
+    <EditText
+        android:id="@+id/etsum22a112"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/etsum22a211"
+        android:layout_marginStart="126dp"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A12:-" />
+
+    <EditText
+        android:id="@+id/etsum22a113"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tvsumm1"
+        android:layout_marginTop="167dp"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A13:-" />
+
+    <EditText
+        android:id="@+id/etsum22a114"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etsum22a112"
+        android:layout_alignTop="@+id/etsum22a113"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A14:-" />
+
+    <EditText
+        android:id="@+id/etsum22a211"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/etsum22a212"
+        android:layout_marginEnd="99dp"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="B11:-" />
+
+    <EditText
+        android:id="@+id/etsum22a212"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="79dp"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="B12:-" />
+
+    <EditText
+        android:id="@+id/etsum22a213"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etsum22a211"
+        android:layout_alignTop="@+id/etsum22a113"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="B13:-" />
+
+    <EditText
+        android:id="@+id/etsum22a214"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etsum22a212"
+        android:layout_alignTop="@+id/etsum22a113"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="B14:-" />
+
+    <Button
+        android:id="@+id/btsum2by2result"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Matrix 1 + Matrix 2"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tvsum2by2result"
+        android:layout_width="312dp"
+        android:layout_height="143dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp"
+        android:textSize="32sp"/>
+
+</RelativeLayout>

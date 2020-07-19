@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransposePage"
+    android:background="@drawable/main">
+
+    <Button
+        android:id="@+id/bt2by2tra"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/shape"
+        android:text="2 * 2"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/bt3by3tra"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="184dp"
+        android:background="@drawable/shape"
+        android:text="3 * 3"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/bt4by4tra"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="203dp"
+        android:background="@drawable/shape"
+        android:text="4 * 4"
+        android:textColor="#ffffff" />
+</RelativeLayout>

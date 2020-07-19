@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MultiplicationPage"
+    android:background="@drawable/main">
+
+    <Button
+        android:id="@+id/btmul22by22"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:text="(2*2) * (2*2)"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btmul33by33"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="229dp"
+        android:text="(3*3) * (3*3)"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>

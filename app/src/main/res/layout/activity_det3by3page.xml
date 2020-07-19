@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Det3by3page"
+    android:background="@drawable/main">
+
+    <EditText
+        android:id="@+id/etdet33a11"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A11 :-"
+        android:layout_marginLeft="18dp"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/etdet33a12"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/etdet33a11"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A12 :-" />
+
+    <EditText
+        android:id="@+id/etdet33a13"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etdet33a12"
+        android:layout_alignTop="@+id/etdet33a11"
+        android:layout_marginStart="118dp"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A13 :-"
+        android:layout_marginLeft="118dp"
+        android:layout_alignLeft="@+id/etdet33a12" />
+
+    <EditText
+        android:id="@+id/etdet33a21"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/etdet33a11"
+        android:layout_marginTop="89dp"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A21 :-"
+        android:layout_alignLeft="@+id/etdet33a11" />
+
+    <EditText
+        android:id="@+id/etdet33a22"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/etdet33a21"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A22 :-" />
+
+    <EditText
+        android:id="@+id/etdet33a23"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etdet33a13"
+        android:layout_alignTop="@+id/etdet33a21"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A23:-"
+        android:layout_alignLeft="@+id/etdet33a13" />
+
+    <EditText
+        android:id="@+id/etdet33a31"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/etdet33a11"
+        android:layout_marginTop="153dp"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A31 :-"
+        android:layout_alignLeft="@+id/etdet33a11" />
+
+    <EditText
+        android:id="@+id/etdet33a32"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/etdet33a31"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A32 :-" />
+
+    <EditText
+        android:id="@+id/etdet33a33"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etdet33a12"
+        android:layout_alignTop="@+id/etdet33a31"
+        android:layout_marginStart="119dp"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="A33 :-"
+        android:layout_marginLeft="119dp"
+        android:layout_alignLeft="@+id/etdet33a12" />
+
+    <Button
+        android:id="@+id/btdet3by3result"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="DETERMINE"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tvdet3by3result"
+        android:layout_width="293dp"
+        android:layout_height="71dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="132dp"
+        android:textSize="16sp"/>
+</RelativeLayout>

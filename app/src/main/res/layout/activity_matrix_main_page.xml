@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMatrixMainPage"
+    android:background="@drawable/main">
+
+    <Button
+        android:id="@+id/btdetermine"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/shape"
+        android:text="DETERMINANT"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <Button
+        android:id="@+id/bttranspose"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="123dp"
+        android:background="@drawable/shape"
+        android:text="TRANSPOSE"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btinverse"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="186dp"
+        android:text="INVERSE"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btadjoint"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="218dp"
+        android:background="@drawable/shape"
+        android:text="ADJOINT"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btsum"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="156dp"
+        android:text="SUM"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/btmultiplication"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="87dp"
+        android:background="@drawable/shape"
+        android:text="MULTI-PLICATION"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prashant.calculator_1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityMatrixMainPage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".DeterminePage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Det2by2page"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Det3by3page"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Det4by4page"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Inverse2by2page"
+            android:label="@string/title_activity_inverse2by2page"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".InversePage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Inverse3by3page"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Inverse4by4page"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TransposePage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Transpose2by2page"
+
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Transpose3by3page"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Transpose4by4page"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AdjointPage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Adjoint2by2page"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Adjoint4by4page"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Adjoint3by3page"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SumPage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Sum2by2page"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Sum3by3page"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MultiplicationPage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Multiplication22by22page"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Multuplication33by33page"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

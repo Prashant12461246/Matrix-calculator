@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="945dp"
+            android:background="@drawable/main">
+
+
+            <TextView
+                android:id="@+id/tvsum33m1"
+                android:layout_width="161dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="118dp"
+                android:layout_marginTop="24dp"
+                android:text="Matrix 1"
+                android:textSize="26sp" />
+
+            <EditText
+                android:id="@+id/etsum33a111"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="84dp"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:hint="A11:-" />
+
+            <EditText
+                android:id="@+id/etsum33a112"
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/etsum33a111"
+                android:layout_marginEnd="150dp"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:hint="A12:-" />
+
+            <EditText
+                android:id="@+id/etsum33a113"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tvsum33m1"
+                android:layout_alignTop="@+id/etsum33a111"
+                android:layout_marginStart="146dp"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:hint="A13:-" />
+
+            <EditText
+                android:id="@+id/etsum33a121"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/etsum33a111"
+                android:layout_marginTop="155dp"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:hint="A21:-" />
+
+            <EditText
+                android:id="@+id/etsum33a122"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/etsum33a112"
+                android:layout_alignTop="@+id/etsum33a121"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:hint="A22:-" />
+
+            <EditText
+                android:id="@+id/etsum33a123"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/etsum33a113"
+                android:layout_alignTop="@+id/etsum33a121"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:hint="A23:-" />
+
+            <EditText
+                android:id="@+id/etsum33a131"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/etsum33a111"
+                android:layout_marginTop="234dp"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:hint="A31:-" />
+
+            <EditText
+                android:id="@+id/etsum33a132"
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/etsum33a112"
+                android:layout_alignTop="@+id/etsum33a131"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:hint="A32:-" />
+
+            <EditText
+                android:id="@+id/etsum33a133"
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/etsum33a113"
+                android:layout_alignTop="@+id/etsum33a131"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:hint="A33:-" />
+
+            <TextView
+                android:id="@+id/tvsum33m2"
+                android:layout_width="162dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="348dp"
+                android:text="Matrix 2"
+                android:textSize="26sp" />
+
+            <EditText
+                android:id="@+id/etsum33a211"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="-118dp"
+                android:layout_marginTop="422dp"
+                android:layout_toStartOf="@+id/tvsum33m1"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:hint="B11:-" />
+
+            <EditText
+                android:id="@+id/etsum33a212"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/etsum33a112"
+                android:layout_alignTop="@+id/etsum33a211"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:hint="B12:-" />
+
+            <EditText
+                android:id="@+id/etsum33a213"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/etsum33a113"
+                android:layout_alignTop="@+id/etsum33a211"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:hint="B13:-" />
+
+            <EditText
+                android:id="@+id/etsum33a221"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/etsum33a111"
+                android:layout_marginBottom="396dp"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:hint="B21:-" />
+
+            <EditText
+                android:id="@+id/etsum33a222"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/etsum33a112"
+                android:layout_alignTop="@+id/etsum33a221"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:hint="B22:-" />
+
+            <EditText
+                android:id="@+id/etsum33a223"
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/etsum33a113"
+                android:layout_alignTop="@+id/etsum33a221"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:hint="B23:-" />
+
+            <EditText
+                android:id="@+id/etsum33a231"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/etsum33a111"
+                android:layout_marginBottom="316dp"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:hint="B31:-" />
+
+            <EditText
+                android:id="@+id/etsum33a232"
+                android:layout_width="82dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/etsum33a112"
+                android:layout_alignTop="@+id/etsum33a231"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:hint="B32:-" />
+
+            <EditText
+                android:id="@+id/etsum33a233"
+                android:layout_width="78dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tvsum33m1"
+                android:layout_alignTop="@+id/etsum33a231"
+                android:layout_marginStart="150dp"
+                android:ems="10"
+                android:inputType="numberDecimal|numberSigned"
+                android:hint="B33:-" />
+
+            <Button
+                android:id="@+id/btsum3by3result"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="223dp"
+                android:text="Matrix1 + Matrix2"
+                android:background="@drawable/shape"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:id="@+id/tvsum3by3result"
+                android:layout_width="293dp"
+                android:layout_height="141dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="38dp"
+                android:textSize="28sp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
